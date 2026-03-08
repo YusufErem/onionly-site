@@ -77,8 +77,10 @@ a:hover {
     text-decoration: none;
 }
 
-.nav-brand span {
-    font-size: 28px;
+.nav-logo {
+    height: 32px;
+    width: 32px;
+    object-fit: contain;
 }
 
 .nav-links {
@@ -111,8 +113,10 @@ a:hover {
     margin: 0 auto;
 }
 
-.hero-icon {
-    font-size: 80px;
+.hero-logo {
+    height: 120px;
+    width: 120px;
+    object-fit: contain;
     margin-bottom: 24px;
 }
 
@@ -227,6 +231,18 @@ a:hover {
 .footer-brand {
     font-size: 18px;
     font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.footer-logo {
+    height: 28px;
+    width: 28px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 6px;
 }
 
 .footer-brand p {
