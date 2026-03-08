@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Onionly</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1f9c5;</text></svg>">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-brand">
+                <span>&#x1f9c5;</span> Onionly
+            </a>
+            <ul class="nav-links">
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="legal">
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: March 8, 2026</p>
+
+        <p>Onionly ("we," "our," or "us") is a recipe management application developed by Yusuf Omer Erem. This Privacy Policy explains how we collect, use, and protect your information when you use the Onionly mobile application (the "App").</p>
+
+        <p>By using the App, you agree to the collection and use of information in accordance with this policy.</p>
+
+        <h2>1. Information We Collect</h2>
+
+        <h3>1.1 Account Information</h3>
+        <p>When you first open the App, an anonymous account is automatically created using Firebase Authentication. This generates a unique anonymous identifier (User ID) that is not linked to your name, email, or any other personal information. If you choose to sign in with Apple, we receive your Apple ID identifier and, if you choose to share it, your email address.</p>
+
+        <h3>1.2 Recipe Data</h3>
+        <p>Recipes you import or create are stored locally on your device using Apple's SwiftData framework. When you import a recipe from a URL, the URL is sent to our server for processing. We temporarily cache extracted recipe data on our servers for up to 7 days to improve performance for repeated imports of the same URL. Recipe content itself (ingredients, instructions, images) is stored on your device.</p>
+
+        <h3>1.3 Usage Data</h3>
+        <p>We collect anonymous usage analytics through Firebase Analytics to understand how the App is used and to improve our service. This includes:</p>
+        <ul>
+            <li>Feature usage (e.g., which screens you visit, which features you use)</li>
+            <li>Import events (e.g., whether a recipe import succeeded or failed, the import method used)</li>
+            <li>General interaction patterns (e.g., tab navigation, button taps)</li>
+        </ul>
+        <p>This data is collected in aggregate and is not used to personally identify you. We do not use Apple's Identifier for Advertisers (IDFA) or any cross-app tracking technology.</p>
+
+        <h3>1.4 Purchase Information</h3>
+        <p>If you subscribe to Onionly Pro, your subscription is processed entirely by Apple through the App Store. We use RevenueCat to manage subscription status. We receive information about your subscription status (active, expired, etc.) but we do not have access to your payment details, credit card number, or Apple ID password.</p>
+
+        <h3>1.5 Server-Side Analytics</h3>
+        <p>When you import a recipe, we log limited information on our servers for debugging and service improvement:</p>
+        <ul>
+            <li>The domain of the recipe URL (e.g., "allrecipes.com"), not the full URL</li>
+            <li>The extraction method used (e.g., structured data, AI extraction)</li>
+            <li>Whether the import succeeded or failed</li>
+            <li>Your anonymous User ID</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        <ul>
+            <li><strong>App Functionality:</strong> To provide core features such as recipe importing, cook mode, meal planning, and grocery lists.</li>
+            <li><strong>Service Improvement:</strong> To analyze usage patterns and improve the App's features and performance.</li>
+            <li><strong>Debugging:</strong> To identify and fix technical issues with recipe importing and other features.</li>
+            <li><strong>Subscription Management:</strong> To verify your subscription status and provide access to premium features.</li>
+        </ul>
+
+        <h2>3. Third-Party Services</h2>
+        <p>We use the following third-party services:</p>
+        <ul>
+            <li><strong>Firebase (Google):</strong> Authentication (anonymous accounts and Apple Sign In), Analytics (usage data), Cloud Functions (recipe processing). <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a></li>
+            <li><strong>RevenueCat:</strong> Subscription and in-app purchase management. <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Privacy Policy</a></li>
+            <li><strong>Google Gemini AI:</strong> Used server-side to extract recipe information from web pages and videos. Recipe URLs and content are processed by our server; no personal information is sent to Gemini. <a href="https://ai.google.dev/terms" target="_blank" rel="noopener">Google AI Terms</a></li>
+        </ul>
+
+        <h2>4. Data Storage and Security</h2>
+        <p>Your recipe data is stored locally on your device. Server-side data (cached recipe extractions, analytics events) is stored in Google Cloud Firestore in the EU (europe-west1 region). We use industry-standard security measures including encrypted connections (HTTPS/TLS), Firebase Security Rules, and rate limiting to protect your data.</p>
+
+        <h2>5. Data Retention</h2>
+        <ul>
+            <li><strong>Recipe cache:</strong> Temporary server-side recipe cache is automatically deleted after 7 days.</li>
+            <li><strong>Analytics data:</strong> Firebase Analytics data is retained according to Google's standard retention policy (14 months for event data, 2 months for aggregated reporting data by default).</li>
+            <li><strong>Server analytics logs:</strong> Import event logs are retained for up to 12 months for debugging purposes, then automatically deleted.</li>
+            <li><strong>Local data:</strong> Recipes and user data stored on your device persist until you delete the App or use the in-app data deletion option.</li>
+        </ul>
+
+        <h2>6. Your Rights</h2>
+        <p>You have the following rights regarding your data:</p>
+        <ul>
+            <li><strong>Data Deletion:</strong> You can delete your account and all associated data through the App's Settings screen. This removes your local data, server-side analytics linked to your User ID, and your Firebase Authentication account.</li>
+            <li><strong>Data Access:</strong> Your recipe data is stored locally on your device and is accessible to you at all times through the App.</li>
+            <li><strong>Opt-Out:</strong> You can limit analytics collection by disabling analytics in your device's Settings under Privacy &amp; Security.</li>
+        </ul>
+
+        <h2>7. Children's Privacy</h2>
+        <p>The App is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us and we will delete such information.</p>
+
+        <h2>8. International Users</h2>
+        <p>Our servers are located in the European Union (Google Cloud europe-west1). If you use the App from outside the EU, your data may be transferred to and processed in the EU, which may have different data protection laws than your country of residence.</p>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by updating the "Last updated" date at the top of this page. We encourage you to review this policy periodically.</p>
+
+        <h2>10. Contact Us</h2>
+        <p>If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:onionly.app@gmail.com">onionly.app@gmail.com</a></p>
+        <p><strong>Developer:</strong> Yusuf Omer Erem</p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                &#x1f9c5; Onionly
+                <p>&copy; 2026 Yusuf Omer Erem. All rights reserved.</p>
+            </div>
+            <ul class="footer-links">
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Use</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
